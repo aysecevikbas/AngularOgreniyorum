@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pastacı Dükkanı</title>
+    <title>İletişim - Pastacı Dükkanı</title>
     <link rel="stylesheet" href="styles.css"> <!-- External CSS -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet"> <!-- Google Fonts -->
 </head>
@@ -20,17 +20,26 @@
         </nav>
     </header>
     <main>
-        <section class="hero">
-            <h2>Hoşgeldiniz!</h2>
-            <p>En lezzetli pastalar ve tatlılar burada!</p>
-        </section>
-        <section class="features">
-            <h3>Öne Çıkan Ürünlerimiz</h3>
+        <section class="contact-us">
+            <h2>İletişim</h2>
+            <p>Bize ulaşmak için aşağıdaki bilgileri kullanabilirsiniz:</p>
             <ul>
-                <li>Pasta 1</li>
-                <li>Pasta 2</li>
-                <li>Pasta 3</li>
+                <li>Telefon: (123) 456-7890</li>
+                <li>Email: info@pastacidukkani.com</li>
+                <li>Adres: Tatlı Sokak, No: 1, İstanbul, Türkiye</li>
             </ul>
+            <form action="#" method="post">
+                <label for="name">İsim:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Mesaj:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Gönder</button>
+            </form>
         </section>
     </main>
     <footer>
