@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F2F2F2;
+    text-align: center; /* Tüm içeriği ortalamak için */
+}
+
+h1 {
+    font-size: 36px;
+    color: #0066CC; /* Google'ın klasik mavisi */
+}
+
+h2 {
+    font-size: 24px;
+    color: #666666;
+}
+
+a {
+    color: #0066CC;
+    text-decoration: none; /* Alt çizgiyi kaldırmak için */
+}
+
+input[type="text"] {
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #142d15;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .search-container {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Sayfanın tüm yüksekliğini kaplar */
+  }
+  
