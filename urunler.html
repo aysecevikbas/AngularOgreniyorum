@@ -3,44 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ürünler - Pastacı Dükkanı</title>
-    <link rel="stylesheet" href="styles.css"> <!-- External CSS -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet"> <!-- Google Fonts -->
+    <title>Hakkımızda - Pastacı Dükkanı</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 </head>
-<body>
-    <header>
-        <h1>Pastacı Dükkanı</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Ana Sayfa</a></li>
-                <li><a href="urunler.html">Ürünler</a></li>
-                <li><a href="hakkimizda.html">Hakkımızda</a></li>
-                <li><a href="iletisim.html">İletişim</a></li>
+<body style="background-color: #E9ECEF;">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Pastacı Dükkanı</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Ana Sayfa</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="urunler.html">Ürünler</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="hakkimizda.html">Hakkımızda</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="iletisim.html">İletişim</a>
+                </li>
             </ul>
-        </nav>
-    </header>
-    <main>
-        <section class="product-list">
-            <h2>Ürünlerimiz</h2>
-            <ul>
-                <li>
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_xYkq6clAE3Fdj5OKf6fiUOG7aJ17kbCvNQ&s" alt="Muzlu Pasta">
-                    <p>Pasta 1</p>
-                </li>
-                <li>
-                    <img src="https://media.istockphoto.com/id/1370520449/tr/foto%C4%9Fraf/slice-of-chocolate-cake-with-glaze.jpg?s=612x612&w=0&k=20&c=WOD3ktCgzouTcxLzfSBQ8yoEVxlC5VRz1IPsR44eYl0=" alt="Çikolatalı Pasta">
-                    <p>Pasta 2</p>
-                </li>
-                <li>
-                    <img src="https://static.ticimax.cloud/cdn-cgi/image/width=-,quality=85/58644/uploads/urunresimleri/buyuk/4ae5876c-8d74-4bb8-9aee-eeab1f3db358-d4c8e-.jpg" alt="Kardan Adam Pasta">
-                    <p>Pasta 3</p>
-                </li>
-                <!-- Daha fazla ürün ekleyebilirsiniz -->
-            </ul>
-        </section>
-    </main>
-    <footer>
+        </div>
+    </nav>
+    <div class="container my-4">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="card">
+                    <div class="card-body">
+                        <h2 class="card-title text-center">Hakkımızda</h2>
+                        <p class="card-text">Pastacı Dükkanı, 2024 yılında kurulmuş bir aile işletmesidir. En taze ve lezzetli pastaları siz değerli müşterilerimize sunmak için çalışıyoruz. Kalite ve müşteri memnuniyeti bizim için her zaman ön plandadır.</p>
+                        <p class="card-text">Profesyonel ekibimiz ve özel tariflerimizle her zaman en iyisini sunmak için buradayız. Her türlü özel gününüzde yanınızdayız!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="bg-dark text-white text-center py-3">
         <p>&copy; 2024 Pastacı Dükkanı. Tüm hakları saklıdır.</p>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>

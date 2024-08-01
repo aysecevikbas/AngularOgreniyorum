@@ -1,25 +1,55 @@
 <!DOCTYPE html>
-<html>
+<html lang="tr">
 <head>
-    <title>Google - Beta</title>
-    <link rel="stylesheet" href="styles.css"> </head>
-<body>
-    <center>
-        <h1>Google!</h1>
-        <h2>Search the web using Google!</h2>
-        <p>
-            <a href="https://www.stanford.edu/">Stanford Search</a> |
-            <a href="https://www.linux.org/">Linux Search</a>
-        </p>
-        </center>
-        <form>
-            <input type="text" name="search" placeholder="Ara">
-            <button type="submit">Ara</button>
-          </form>
-          <div class="search-container">
-            <input type="text" placeholder="Ara">
-          </div>
-                
-          
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pastacı Dükkanı</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body style="background-color: #E9ECEF;">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Pastacı Dükkanı</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Ana Sayfa</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="urunler.html">Ürünler</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="hakkimizda.html">Hakkımızda</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="iletisim.html">İletişim</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="jumbotron text-center">
+        <h1 class="display-4">Hoşgeldiniz!</h1>
+        <p class="lead">En lezzetli pastalar ve tatlılar burada!</p>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col text-center">
+                <h3>Öne Çıkan Ürünlerimiz</h3>
+                <ul class="list-unstyled">
+                    <li>Pasta 1</li>
+                    <li>Pasta 2</li>
+                    <li>Pasta 3</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Pastacı Dükkanı. Tüm hakları saklıdır.</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
